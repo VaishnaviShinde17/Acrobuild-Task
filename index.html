@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="../Assessment 1/style.css">
+
+</head>
+
+<body>
+  <nav class="navbar p-0 pt-2 fixed-top">
+    <div class="search">
+      <div class="form-group form-with-feedback left">
+        <i class="fa fa-fw fa-search"> </i>
+        <input type="text" class="curved form-control " placeholder="Search...">
+      </div>
+    </div>
+    <ul class="navbar-nav right">
+      <li class="nav-item">
+        <a href=""><i class="fa fa-plus-circle"></i></a>
+      </li>
+      <li class="nav-item">
+        <a href=""><i class='far fa-bell'></i></a>
+      </li>
+      <li class="nav-item">
+        <img src="../Assessment 1/user.png" alt="" class="user-img">
+      </li>
+    </ul>
+  </nav>
+
+
+  <!-- <div class="sidebar">
+        <ul class="list-group d-inline-block first-menu">
+            <li class="list-group-item">
+              <a href=""><i class="fa fa-user"></i></a>
+            </li>
+            <li class="list-group-item">
+                <a href=""><i class="fa fa-bullhorn" style="color: rgb(77, 177, 216);"></i></a>
+            </li>
+        </ul>        
+    </div> -->
+
+
+  <div class="content-wrapper">
+    <section class="content">
+      <div class="container-fluid">
+        <h6 class="heading1">Basic Details</h6>
+        <div class="form_layout">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="row">
+                <div class="form-group col-md-4">
+                  <label>Project name<span style="color: red;">*</span></label>
+                  <input type="text" class="form-control">
+                </div>
+                <div class="form-group col-md-4">
+                  <label>Project Code</label>
+                  <input type="text" class="form-control">
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-group col-md-4">
+                  <label>Project Start Date</span></label>
+                  <input type="date" class="form-control">
+                </div>
+                <div class="form-group col-md-4">
+                  <label>Project End Date</label>
+                  <input type="date" class="form-control">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="file-layout">
+                <div class="file-upload">
+                  <i class="fa fa-cloud-upload fa-2x"></i>
+                </div>
+                <div class="upload-btn-wrapper">
+                  <div class="upload-btn-wrapper">
+                    <button type="button" class="btn btn-sm">Upload Project Logo</button>
+                    <input type="file" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h6 class="heading2">Project Details</h6>
+        <div class="form_layout">
+          <div class="col-md-8">
+            <div class="row">
+              <div class="form-group col-md-4">
+                <label>Longitude</label>
+                <input type="text" class="form-control">
+              </div>
+              <div class="form-group col-md-4">
+                <label>Latitude</label>
+                <input type="text" class="form-control">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
